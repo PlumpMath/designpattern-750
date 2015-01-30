@@ -8,9 +8,9 @@ public class InputTest {
 
 		try {
 			InputStream in = 
-				new LowerCaseInputStream(
+					new LowerCaseInputStream(
 					new BufferedInputStream(
-						new FileInputStream("test.txt")));
+						new FileInputStream("d:/tmp/text.txt")));
 
 			while((c = in.read()) >= 0) {
 				System.out.print((char)c);
